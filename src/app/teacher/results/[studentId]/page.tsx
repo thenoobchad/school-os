@@ -4,7 +4,8 @@ import { ResultCard } from "@/components/shared/ResultCard";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { getStudentFullResult } from "@/actioins/teacher.actions";
+import { getStudentFullResult } from "@/actions/teacher.actions";
+
 
 interface Props {
     params: { studentId: string };
