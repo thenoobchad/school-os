@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { createUserAction } from "@/actioins/admin.actions";
+import { createUserAction } from "@/actions/admin.actions";
 
 export default function NewUserPage() {
     const [role, setRole] = useState<"admin" | "teacher" | "student">("student");
